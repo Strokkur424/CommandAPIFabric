@@ -13,6 +13,7 @@ dependencies {
     mappings(loom.officialMojangMappings())
 
     modImplementation(include("net.kyori", "adventure-platform-fabric", "5.14.0"))
+    modImplementation("net.fabricmc.fabric-api", "fabric-api", "0.100.3+1.21")
     implementation("dev.jorel:commandapi-core:9.5.1")
 }
 
