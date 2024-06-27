@@ -1,0 +1,26 @@
+{
+  "schemaVersion": 1,
+  "id": "commandapifabric",
+  "version": "${version}",
+  "name": "CommandAPIFabric",
+  "description": "",
+  "authors": [],
+  "contact": {
+    "repo": "https://github.com/Strokkur24/CommandAPIFabric"
+  },
+  "license": "All-Rights-Reserved",
+  "icon": "assets/commandapi/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "dev.jorel.commandapi.client.CommandAPIFabricClient"
+    ],
+    "main": [
+      "dev.jorel.commandapi.CommandAPIFabric"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "minecraft": "${minecraft_version}"
+  }
+}
